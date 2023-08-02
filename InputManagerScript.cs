@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputManagerScript : SingletonScript<InputManagerScript>
+public class InputManagerScript : MonoBehaviour
 {
     //First 2 variable is changeable.
     private float _thresholdPos;  //Minimum distance to swipe. User must pass this value while swapping.
